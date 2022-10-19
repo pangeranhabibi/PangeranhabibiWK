@@ -1,0 +1,93 @@
+body{
+    min-height: 80vh;
+    background: linear-gradient(#2b1055,#7597de)
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active
+{
+    background: #fff;
+    color: #2b1055;
+}
+
+section img{
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block ;
+    margin-top: 150px;
+    border-radius: 300px;
+}
+
+.content1{
+    text-align: center;
+    padding: 6% 12%;
+    color: #000000;
+}
+.footer-main {
+    background-color: #2b1055;
+    padding: 24px 60px;
+    color: white;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 0 auto;
+    max-width: 100%;
+    justify-items: center;
+  }
+  
+  @media (max-width: 1024px) {
+    .footer-grid {
+      padding-left: 20px;
+    }
+  }
+  
+  .footer-grid p {
+    margin: 10px 0;
+  }
+  
+.logoWik {
+  margin-top: 30px;
+}
